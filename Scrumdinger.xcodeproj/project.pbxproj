@@ -16,6 +16,7 @@
 		D2D21F342599583C00A58094 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D21F332599583C00A58094 /* DailyScrum.swift */; };
 		D2D21F37259959A400A58094 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D21F36259959A400A58094 /* CardView.swift */; };
 		D2D21F3B25995C9C00A58094 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D21F3A25995C9C00A58094 /* ScrumsView.swift */; };
+		D2D21F3E259960A400A58094 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D21F3D259960A400A58094 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D2D21F332599583C00A58094 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		D2D21F36259959A400A58094 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		D2D21F3A25995C9C00A58094 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		D2D21F3D259960A400A58094 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				D23AFA48259947D3002EFE6E /* MeetingView.swift */,
 				D2D21F36259959A400A58094 /* CardView.swift */,
 				D2D21F3A25995C9C00A58094 /* ScrumsView.swift */,
+				D2D21F3D259960A400A58094 /* DetailView.swift */,
 				D23AFA4A259947D5002EFE6E /* Assets.xcassets */,
 				D23AFA4F259947D5002EFE6E /* Info.plist */,
 				D23AFA4C259947D5002EFE6E /* Preview Content */,
@@ -165,6 +168,7 @@
 				D2D21F342599583C00A58094 /* DailyScrum.swift in Sources */,
 				D2D21F3B25995C9C00A58094 /* ScrumsView.swift in Sources */,
 				D23AFA49259947D3002EFE6E /* MeetingView.swift in Sources */,
+				D2D21F3E259960A400A58094 /* DetailView.swift in Sources */,
 				D2D21F2D259957CD00A58094 /* Color+Codable.swift in Sources */,
 				D23AFA47259947D3002EFE6E /* ScrumdingerApp.swift in Sources */,
 				D2D21F37259959A400A58094 /* CardView.swift in Sources */,
