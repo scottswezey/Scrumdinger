@@ -11,6 +11,10 @@
 		D23AFA49259947D3002EFE6E /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23AFA48259947D3002EFE6E /* MeetingView.swift */; };
 		D23AFA4B259947D5002EFE6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23AFA4A259947D5002EFE6E /* Assets.xcassets */; };
 		D23AFA4E259947D5002EFE6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23AFA4D259947D5002EFE6E /* Preview Assets.xcassets */; };
+		D2D21F2D259957CD00A58094 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D21F2C259957CD00A58094 /* Color+Codable.swift */; };
+		D2D21F312599580900A58094 /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = D2D21F302599580900A58094 /* License.txt */; };
+		D2D21F342599583C00A58094 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D21F332599583C00A58094 /* DailyScrum.swift */; };
+		D2D21F37259959A400A58094 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D21F36259959A400A58094 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		D23AFA4A259947D5002EFE6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D23AFA4D259947D5002EFE6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D23AFA4F259947D5002EFE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2D21F2C259957CD00A58094 /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		D2D21F302599580900A58094 /* License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		D2D21F332599583C00A58094 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		D2D21F36259959A400A58094 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 		D23AFA3A259947D3002EFE6E = {
 			isa = PBXGroup;
 			children = (
+				D2D21F302599580900A58094 /* License.txt */,
 				D23AFA45259947D3002EFE6E /* Scrumdinger */,
 				D23AFA44259947D3002EFE6E /* Products */,
 			);
@@ -52,8 +61,10 @@
 		D23AFA45259947D3002EFE6E /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				D2D21F2B2599578700A58094 /* Models */,
 				D23AFA46259947D3002EFE6E /* ScrumdingerApp.swift */,
 				D23AFA48259947D3002EFE6E /* MeetingView.swift */,
+				D2D21F36259959A400A58094 /* CardView.swift */,
 				D23AFA4A259947D5002EFE6E /* Assets.xcassets */,
 				D23AFA4F259947D5002EFE6E /* Info.plist */,
 				D23AFA4C259947D5002EFE6E /* Preview Content */,
@@ -67,6 +78,15 @@
 				D23AFA4D259947D5002EFE6E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D2D21F2B2599578700A58094 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D2D21F2C259957CD00A58094 /* Color+Codable.swift */,
+				D2D21F332599583C00A58094 /* DailyScrum.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +148,7 @@
 			files = (
 				D23AFA4E259947D5002EFE6E /* Preview Assets.xcassets in Resources */,
 				D23AFA4B259947D5002EFE6E /* Assets.xcassets in Resources */,
+				D2D21F312599580900A58094 /* License.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2D21F342599583C00A58094 /* DailyScrum.swift in Sources */,
 				D23AFA49259947D3002EFE6E /* MeetingView.swift in Sources */,
+				D2D21F2D259957CD00A58094 /* Color+Codable.swift in Sources */,
 				D23AFA47259947D3002EFE6E /* ScrumdingerApp.swift in Sources */,
+				D2D21F37259959A400A58094 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
