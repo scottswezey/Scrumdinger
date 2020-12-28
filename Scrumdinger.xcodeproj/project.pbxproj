@@ -12,7 +12,6 @@
 		D23AFA4B259947D5002EFE6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23AFA4A259947D5002EFE6E /* Assets.xcassets */; };
 		D23AFA4E259947D5002EFE6E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23AFA4D259947D5002EFE6E /* Preview Assets.xcassets */; };
 		D2D21F2D259957CD00A58094 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D21F2C259957CD00A58094 /* Color+Codable.swift */; };
-		D2D21F312599580900A58094 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D2D21F302599580900A58094 /* LICENSE.txt */; };
 		D2D21F342599583C00A58094 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D21F332599583C00A58094 /* DailyScrum.swift */; };
 		D2D21F37259959A400A58094 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D21F36259959A400A58094 /* CardView.swift */; };
 		D2D21F3B25995C9C00A58094 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D21F3A25995C9C00A58094 /* ScrumsView.swift */; };
@@ -26,6 +25,7 @@
 		D2D21F592599B15600A58094 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2D21F582599B15500A58094 /* ding.wav */; };
 		D2D21F5E2599B4C100A58094 /* ACKNOWLEDGMENTS.txt in Resources */ = {isa = PBXBuildFile; fileRef = D2D21F5D2599B4C100A58094 /* ACKNOWLEDGMENTS.txt */; };
 		D2D21F612599B50000A58094 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D21F602599B50000A58094 /* History.swift */; };
+		D2D21F662599B5C200A58094 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D2D21F652599B5C200A58094 /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,6 @@
 		D23AFA4D259947D5002EFE6E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D23AFA4F259947D5002EFE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2D21F2C259957CD00A58094 /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
-		D2D21F302599580900A58094 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		D2D21F332599583C00A58094 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		D2D21F36259959A400A58094 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		D2D21F3A25995C9C00A58094 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
@@ -50,6 +49,7 @@
 		D2D21F582599B15500A58094 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		D2D21F5D2599B4C100A58094 /* ACKNOWLEDGMENTS.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ACKNOWLEDGMENTS.txt; sourceTree = "<group>"; };
 		D2D21F602599B50000A58094 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		D2D21F652599B5C200A58094 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,8 +132,8 @@
 		D2D21F5C2599B49700A58094 /* LICENSE */ = {
 			isa = PBXGroup;
 			children = (
-				D2D21F302599580900A58094 /* LICENSE.txt */,
 				D2D21F5D2599B4C100A58094 /* ACKNOWLEDGMENTS.txt */,
+				D2D21F652599B5C200A58094 /* LICENSE.txt */,
 			);
 			path = LICENSE;
 			sourceTree = "<group>";
@@ -198,8 +198,8 @@
 				D23AFA4E259947D5002EFE6E /* Preview Assets.xcassets in Resources */,
 				D2D21F5E2599B4C100A58094 /* ACKNOWLEDGMENTS.txt in Resources */,
 				D23AFA4B259947D5002EFE6E /* Assets.xcassets in Resources */,
+				D2D21F662599B5C200A58094 /* LICENSE.txt in Resources */,
 				D2D21F592599B15600A58094 /* ding.wav in Resources */,
-				D2D21F312599580900A58094 /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
