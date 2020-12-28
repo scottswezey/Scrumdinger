@@ -26,6 +26,7 @@
 		D2D21F5E2599B4C100A58094 /* ACKNOWLEDGMENTS.txt in Resources */ = {isa = PBXBuildFile; fileRef = D2D21F5D2599B4C100A58094 /* ACKNOWLEDGMENTS.txt */; };
 		D2D21F612599B50000A58094 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D21F602599B50000A58094 /* History.swift */; };
 		D2D21F662599B5C200A58094 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D2D21F652599B5C200A58094 /* LICENSE.txt */; };
+		D2D21F692599B95200A58094 /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D21F682599B95200A58094 /* ScrumData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		D2D21F5D2599B4C100A58094 /* ACKNOWLEDGMENTS.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ACKNOWLEDGMENTS.txt; sourceTree = "<group>"; };
 		D2D21F602599B50000A58094 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		D2D21F652599B5C200A58094 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		D2D21F682599B95200A58094 /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				D2D21F4D2599ACD600A58094 /* ScrumTimer.swift */,
 				D2D21F502599ACEB00A58094 /* AVPlayer+Ding.swift */,
 				D2D21F602599B50000A58094 /* History.swift */,
+				D2D21F682599B95200A58094 /* ScrumData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				D2D21F612599B50000A58094 /* History.swift in Sources */,
 				D2D21F412599672000A58094 /* EditView.swift in Sources */,
 				D23AFA49259947D3002EFE6E /* MeetingView.swift in Sources */,
+				D2D21F692599B95200A58094 /* ScrumData.swift in Sources */,
 				D2D21F552599AEC300A58094 /* MeetingFooterView.swift in Sources */,
 				D2D21F3E259960A400A58094 /* DetailView.swift in Sources */,
 				D2D21F2D259957CD00A58094 /* Color+Codable.swift in Sources */,
