@@ -41,6 +41,7 @@
 		D23AFA4F259947D5002EFE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2A6EB23259A59E700A38620 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 		D2A6EB26259A5CB100A38620 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		D2C76D7A259C3FA300F09276 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D2D21F2C259957CD00A58094 /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		D2D21F332599583C00A58094 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		D2D21F36259959A400A58094 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 		D23AFA3A259947D3002EFE6E = {
 			isa = PBXGroup;
 			children = (
+				D2C76D7A259C3FA300F09276 /* README.md */,
 				D23AFA45259947D3002EFE6E /* Scrumdinger */,
 				D23AFA44259947D3002EFE6E /* Products */,
 				D2D21F5C2599B49700A58094 /* LICENSE */,
